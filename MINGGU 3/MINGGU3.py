@@ -42,3 +42,26 @@ print(f"x <= y: {x <= y}") #lebih kecil atau sama dengan
 
 #PROGRAM 12: OPERATOR LOGIKA DASAR
 print("\n16.OPERATOR LOGIKA DASAR")
+print("-" * 30)
+
+p = True
+
+q = False
+
+print(f"p = {p}, q = {q}")
+
+print(f"p and q: {p and q}")
+
+# AND
+
+print(f"p or q: {p or q}")
+
+# OR
+
+print(f"not p: {not p}")
+
+# NOT
+
+4
+
+print(f"not q: {not q}")
