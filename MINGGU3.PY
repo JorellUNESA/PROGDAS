@@ -12,5 +12,7 @@ import math
 radius = float(input("Masukkan jari-jari lingkaran: "))
 luas = math.pi * radius ** 2
 keliling = 2 * math.pi * radius
-print(f"Luas lingkaran dengan jari-jari {radius} adalah: {luas:.2f}")
-print(f"Keliling lingkaran dengan jari-jari {radius} adalah: {keliling:.2f}")
+print(f"jari-jari lingkaran: {radius}")
+print(f"Luas lingkaran: {luas:.2f}")
+print(f"Keliling lingkaran: {keliling:.2f}")  
+
