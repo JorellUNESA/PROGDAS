@@ -30,8 +30,8 @@ print(f"{celcius}°C = {kelvin:.2f} K")
 #PROGRAM 11: OPERATOR PEMBANDING DASAR
 print("\n11.OPERATOR PEMBANDING DASAR")
 print("-"*30)
-x = 10
-y = 20
+x = int(input("Masukkan nilai x: "))
+y = int(input("Masukkan nilai y: "))
 print(f"x = {x}, y = {y}")
 print(f"x == y: {x == y}") #sama dengan
 print(f"x != y: {x != y}") #tidak sama dengan
@@ -39,3 +39,6 @@ print(f"x > y: {x > y}") #lebih besar dari
 print(f"x < y: {x < y}") #lebih kecil dari
 print(f"x >= y: {x >= y}") #lebih besar atau sama dengan
 print(f"x <= y: {x <= y}") #lebih kecil atau sama dengan
+
+#PROGRAM 12: OPERATOR LOGIKA DASAR
+print("\n16.OPERATOR LOGIKA DASAR")
