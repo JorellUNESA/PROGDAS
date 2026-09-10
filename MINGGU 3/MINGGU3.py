@@ -26,3 +26,16 @@ fahrenheit = (celcius * 9/5) + 32
 kelvin = celcius + 273.15
 print(f"{celcius}°C = {fahrenheit:.2f}°F")
 print(f"{celcius}°C = {kelvin:.2f} K")
+
+#PROGRAM 11: OPERATOR PEMBANDING DASAR
+print("\n11.OPERATOR PEMBANDING DASAR")
+print("-"*30)
+x = 10
+y = 20
+print(f"x = {x}, y = {y}")
+print(f"x == y: {x == y}") #sama dengan
+print(f"x != y: {x != y}") #tidak sama dengan
+print(f"x > y: {x > y}") #lebih besar dari
+print(f"x < y: {x < y}") #lebih kecil dari
+print(f"x >= y: {x >= y}") #lebih besar atau sama dengan
+print(f"x <= y: {x <= y}") #lebih kecil atau sama dengan
