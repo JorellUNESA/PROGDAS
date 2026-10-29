@@ -13,7 +13,7 @@ for char in 'saya belajar python':
     print(char)
     vocals = 'aiueo'
     jumlah_vocal = 0
-    for char in kata:
+    for char in 'saya belajar python':
         if char.lower() in vocals:
             jumlah_vocal += 1
     print("Jumlah huruf vokal dalam")
